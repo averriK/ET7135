@@ -1,0 +1,49 @@
+---
+title: "Modelos Dinámicos y Series Temporales"
+subtitle: "Estadística Técnica Superior (71.35)"
+author: "***Facultad de Ingeniería. Universidad de Buenos Aires (FIUBA)***"
+output:
+  tufte::tufte_html:
+    tufte_features: ["fonts", "background", "italics"]
+    toc: no
+  tufte::tufte_handout: 
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book: 
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: book.bib
+github-repo: averriK/ET7135
+link-citations: yes
+always_allow_html: true
+---
+
+
+```{r setup,include=TRUE, collapse=TRUE,echo=FALSE,eval=TRUE,cache=FALSE}
+source("setup.R", local = knitr::knit_global())
+```
+
+```{r  fig.margin=TRUE, out.width = "50%", cache=TRUE}
+knitr::include_graphics('images/logo.png')
+```
+
+***Trabajo Práctico Final***\
+***Curso:*** _Estadística Técnica Superior (71.35)_\
+***Cátedra:*** _Emilio Picasso (PhD), Mariano Bonoli Escobar (MsC)_\
+***Alumno:*** _Alejandro Verri Kozlowski_\
+***Grado:*** _Doctorado_ \
+***github-repo:*** [/averriK/ET7135](https://github.com/averriK/ET7135.git) \
+
+
+
+# Planteo del Problema
+
+# Datos y Datases
+
+# Objetivos
+
+El trabajo final del curso tiene como propósito general XXXXX. Para atender este propósito, el desarrollo deberá cubrir como mínimo los siguientes objetivos:
+
+-  XXX.\
+-  XXX.\
+-  XXX\
