@@ -1,6 +1,5 @@
 library(knitr)
 library(rmdformats)
-library(magrittr)
 library(data.table)
 library(stringr)
 library(DT)
@@ -18,6 +17,6 @@ opts_chunk$set(eval=TRUE,
 opts_knit$set(width=85)
 
 .getN <- function(DT){
-  N <- DT %>% unique() %>% nrow %>% prettyNum(big.mark=" ")
+  N <- DT |> unique() |> nrow |> prettyNum(big.mark=" ")
   return(N)
 }
